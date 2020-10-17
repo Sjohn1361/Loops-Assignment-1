@@ -4,12 +4,15 @@
  */
 
 
+var i = 10;
+
 var counter = 1000;
 
-for (var i = 10; i <= counter; i=i+10) {
-
+while (i <= counter) {
 document.write("<br>" + i);
 
+i = i+10;
 }
 
-document.write("This program displays the numbers 0 to 1000 by 10's");
+
+document.write("<br> This program displays the numbers 0 to 1000 by 10's");
